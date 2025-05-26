@@ -9,4 +9,9 @@ public class HelloController {
 	public String hellow() {
 		return "Hellow Spring";
 	}
+	
+	@GetMapping("/hello2")
+	public String hello2() {
+		return "Hellow Spring";
+	}
 }
